@@ -16,9 +16,18 @@ Dự án SmartVanBanQangNgai là một hệ thống chatbot thông minh, đượ
 
 ## Hướng dẫn cài đặt thư viện
 
+1. Mở Command Prompt (Windows) hoặc Terminal (MacOS/Linux).
+2. Di chuyển đến thư mục chứa dự án:
+
+```bash
+cd D:\PUSH_GIT\Chatbot_SmartVanBanQangNgai
+```
+
 3. Cài đặt thư viện yêu cầu:
 
+```bash
 py -3.10 -m pip install -r requirements_local.txt
+```
 
 ## Hướng dẫn chạy ứng dụng
 
@@ -26,13 +35,17 @@ py -3.10 -m pip install -r requirements_local.txt
 
 * Để khởi động giao diện quản trị (Admin), chạy lệnh sau:
 
+```bash
 py -3.10 -m streamlit run admin_chatbot.py
+```
 
 ### 2. Chạy User
 
 * Để khởi động giao diện người dùng (User), chạy lệnh sau:
 
+```bash
 py -3.10 -m streamlit run botchat_user.py
+```
 
 ## Lưu ý
 
