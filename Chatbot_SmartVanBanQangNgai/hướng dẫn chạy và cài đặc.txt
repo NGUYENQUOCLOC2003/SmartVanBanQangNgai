@@ -1,0 +1,10 @@
+chạy lệnh cài đặc thư viện
+py -3.10 -m pip install -r requirements_local.txt
+gõ lệnh để chạy:
+1. Chạy Admin
+py -3.10 -m streamlit run admin_chatbot.py
+2.Chạy user
+py -3.10 -m streamlit run botchat_user.py
+
+**  Lưu ý phải cài đặc python 3.10  **
+Link tải:  https://www.python.org/downloads/release/python-31017/
